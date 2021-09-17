@@ -16,3 +16,20 @@ export const QUERY_MORTY = gql`
     }
   }
 `;
+
+export const QUERY_CHARACTER = gql`
+  query ($name: String!) {
+    characters(filter: { name: $name }) {
+      results {
+        id
+        name
+        status
+        species
+        type
+        gender
+        image
+        created
+      }
+    }
+  }
+`;
