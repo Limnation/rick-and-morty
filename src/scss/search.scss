@@ -1,0 +1,36 @@
+.searchInputs {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.searchInputs input {
+  border: 2px solid black;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.searchIcon img {
+  width: 30px;
+  padding: 0px 0px 0px 0px;
+  margin: -11px 0px;
+  cursor: pointer;
+}
+
+.searchSection {
+  display: inline-block;
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  padding: 14px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

@@ -1,13 +1,16 @@
+import Search from "../components/Search";
 // Importing a SCSS file
 import "../scss/landing.scss";
+// Importing Objects
+import { landingbackground } from "../utils/objects";
 
 export default function Landing() {
   return (
     <section className="Landing">
-      <video autoplay muted loop id="myVideo">
-        <source src="intro.mp4" type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video>
+      <style scoped>{landingbackground}</style>
+      <div className="backgimage background">
+        <Search />
+      </div>
     </section>
   );
 }
