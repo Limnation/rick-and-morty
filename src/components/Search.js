@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "../scss/search.scss";
 
 export default function Search() {
-  const [inputName, setInputName] = useState({});
+  const [inputName, setInputName] = useState(0);
 
   const handleChange = ({ target }) => {
     const { name, value } = target;
@@ -15,7 +15,11 @@ export default function Search() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // test alert
-    alert(JSON.stringify(inputName));
+    if (inputName === 0) {
+      alert("please enter a Character's Name");
+    } else {
+      alert(JSON.stringify(inputName));
+    }
   };
 
   return (
