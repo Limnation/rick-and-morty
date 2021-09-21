@@ -7,7 +7,7 @@ const CharacterCards = ({ characters, title }) => {
   }
   return (
     <div className="characterCards">
-      <h3 className="">{title}</h3>
+      <h3 className="CardTitle">{title}</h3>
       <div className="">
         {characters &&
           characters.map((character) => (
