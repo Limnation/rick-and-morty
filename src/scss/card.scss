@@ -1,0 +1,48 @@
+.searchCard {
+  width: 100%;
+}
+
+.loading {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Creepster", cursive;
+  font-size: 150px;
+  color: #8cfff9;
+}
+
+.characterCards {
+  font-family: "Rock Salt", cursive;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.cards {
+  background-color: #00afc7;
+  display: inline-block;
+  border: 5px solid #023d44;
+  font-size: 18px;
+  padding: 0.5%;
+  margin: 0.5%;
+  box-shadow: 0px 0px 10px 3px #81fe64;
+}
+
+.characterName {
+  color: #093a63;
+}
+
+.characterFacts {
+  font-size: 16px;
+  color: #000000;
+  font-family: Verdana, sans-serif;
+}
+
+.characterFacts {
+  span {
+    color: #692d2c;
+  }
+}

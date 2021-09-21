@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 export const QUERY_MORTY = gql`
   query {
-    characters(filter: { name: "morty" }) {
+    characters(filter: { name: "Morty" }) {
       results {
         id
         name
