@@ -26,7 +26,7 @@ $small: 550px;
   font-family: "Creepster", cursive;
   font-size: 150px;
   color: #8cfff9;
-  @media screen and (max-width: $medium) {
+  @media screen and (max-width: $small) {
     font-size: 80px;
   }
 }
