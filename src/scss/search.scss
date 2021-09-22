@@ -1,3 +1,7 @@
+$min: 375px;
+$small: 460px;
+$medium: 900px;
+
 .searchInputs {
   margin: 0;
   position: absolute;
@@ -5,6 +9,12 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  @media screen and (max-width: $medium) {
+    width: 100%;
+  }
+  @media screen and (max-width: $min) {
+    width: 365px;
+  }
 }
 
 .searchInputs input {
@@ -13,6 +23,9 @@
   padding: 12px 20px;
   margin: 5px 0;
   box-sizing: border-box;
+  @media screen and (max-width: $small) {
+    width: 83%;
+  }
 }
 
 .searchIcon img {
@@ -33,4 +46,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  @media screen and (max-width: $small) {
+    width: 15%;
+  }
 }
