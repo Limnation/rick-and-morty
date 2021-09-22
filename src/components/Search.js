@@ -40,7 +40,7 @@ export default function Search() {
             className="searchSection"
           />
           <button type="submit" className="searchIcon searchSection button">
-            <img src="../images/search/pickle-rick.png" alt="search Icon" />
+            <img src="images/search/pickle-rick.png" alt="search Icon" />
           </button>
         </form>
       )}

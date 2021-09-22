@@ -17,7 +17,7 @@ export default function App() {
     <ApolloProvider client={client}>
       <Router>
         <Nav />
-        <Route exact path="/">
+        <Route path={process.env.PUBLIC_URL + "/"}>
           <Landing />
         </Route>
         <Footer />
