@@ -18,9 +18,11 @@ export default function Cards(props) {
   const closeCards = () => {
     setShow(!Show);
   };
-  console.log(characters);
+
+  // console.log(characters); <-- shows array of characters
+
   return (
-    <section>
+    <>
       {Show ? (
         <div className="searchCard">
           {loading ? (
@@ -44,6 +46,6 @@ export default function Cards(props) {
       ) : (
         <Search />
       )}
-    </section>
+    </>
   );
 }

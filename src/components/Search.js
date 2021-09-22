@@ -26,7 +26,7 @@ export default function Search() {
   };
 
   return (
-    <section>
+    <>
       {isShow ? (
         <Cards inputNameVar={inputName.characterName} />
       ) : (
@@ -44,6 +44,6 @@ export default function Search() {
           </button>
         </form>
       )}
-    </section>
+    </>
   );
 }

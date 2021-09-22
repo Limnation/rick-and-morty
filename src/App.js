@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 // Importing Pages
 import Nav from "./components/Nav";
-import Landing from "./components/Landing";
+import Landing from "./pages/Landing";
 
 const client = new ApolloClient({
   uri: "https://rickandmortyapi.com/graphql",
