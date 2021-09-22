@@ -28,7 +28,10 @@ export const QUERY_CHARACTER = gql`
         type
         gender
         image
-        created
+        episode {
+          name
+          air_date
+        }
       }
     }
   }

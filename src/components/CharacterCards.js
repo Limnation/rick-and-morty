@@ -25,9 +25,13 @@ const CharacterCards = ({ characters, title }) => {
                   <br />
                   Species: <span> {character.species}</span>
                   <br />
-                  {character.type}
+                  <span>{character.type}</span>
                   <br />
-                  {character.created}
+                  Prameire Episode:
+                  <br />
+                  <span>{character.episode[0].name}</span>
+                  <br />
+                  <span>{character.episode[0].air_date}</span>
                 </p>
               </div>
             </div>

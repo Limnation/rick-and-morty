@@ -9,7 +9,7 @@ export const landingbackground = `
 }
 @media only screen and (min-width: 1921px){
     .backgimage {
-        background-image: url("images/landing/rick-and-morty-portal-4K.jpg")
+        background-image: url("images/landing/rick-and-morty-portal.jpg")
     }
 }
 `;
