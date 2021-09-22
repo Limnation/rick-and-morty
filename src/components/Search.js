@@ -18,7 +18,7 @@ export default function Search() {
     event.preventDefault();
     // test alert
     if (inputName === 0) {
-      alert("please enter a Character's Name");
+      alert("Please Enter a Character's Name");
     } else {
       setIsShow(!isShow);
       // JSON.stringify(inputName)
@@ -28,7 +28,7 @@ export default function Search() {
   return (
     <section>
       {isShow ? (
-        <Cards />
+        <Cards inputNameVar={inputName.characterName} />
       ) : (
         <form onSubmit={handleSubmit} className="searchInputs">
           <input
@@ -36,7 +36,7 @@ export default function Search() {
             onChange={handleChange}
             type="text"
             name="characterName"
-            placeholder="Character Name"
+            placeholder="Character's Name"
             className="searchSection"
           />
           <button type="submit" className="searchIcon searchSection button">

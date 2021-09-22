@@ -1,19 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import CharacterCards from "./CharacterCards.js";
 import Search from "../components/Search";
 // Importing a SCSS file
 import "../scss/card.scss";
 // Importing Queries
 import { useQuery } from "@apollo/client";
-import { QUERY_MORTY } from "../utils/queries";
+import { QUERY_CHARACTER } from "../utils/queries";
 
-export default function Cards() {
-  const { loading, data } = useQuery(QUERY_MORTY);
+export default function Cards(props) {
+  const { loading, data } = useQuery(QUERY_CHARACTER, {
+    variables: { name: props.inputNameVar },
+  });
   const characters = data?.characters.results || [];
 
   const [Show, setShow] = React.useState(true);
 
-  const closeCards = (event) => {
+  const closeCards = () => {
     setShow(!Show);
   };
 
