@@ -30,7 +30,14 @@ export default function Cards(props) {
               <span onClick={closeCards} className="exitCard">
                 &#10007;
               </span>
-              <CharacterCards characters={characters} title="The Multiverse" />
+              {characters.length > 0 ? (
+                <CharacterCards
+                  characters={characters}
+                  title="The Multiverse"
+                />
+              ) : (
+                <div className="loading">Invalid Character</div>
+              )}
             </div>
           )}
         </div>
