@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rick-and-morty/static/css/main.29b68a3e.chunk.css",
-    "main.js": "/rick-and-morty/static/js/main.b6a9a4cf.chunk.js",
-    "main.js.map": "/rick-and-morty/static/js/main.b6a9a4cf.chunk.js.map",
+    "main.js": "/rick-and-morty/static/js/main.90311f67.chunk.js",
+    "main.js.map": "/rick-and-morty/static/js/main.90311f67.chunk.js.map",
     "runtime-main.js": "/rick-and-morty/static/js/runtime-main.cd3e2a62.js",
     "runtime-main.js.map": "/rick-and-morty/static/js/runtime-main.cd3e2a62.js.map",
     "static/js/2.e91269dd.chunk.js": "/rick-and-morty/static/js/2.e91269dd.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.cd3e2a62.js",
     "static/js/2.e91269dd.chunk.js",
     "static/css/main.29b68a3e.chunk.css",
-    "static/js/main.b6a9a4cf.chunk.js"
+    "static/js/main.90311f67.chunk.js"
   ]
 }
