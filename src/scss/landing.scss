@@ -1,11 +1,16 @@
+$small: 550px;
+$medium: 900px;
+
 .background {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   text-align: center;
-  height: 90vh;
+  min-height: 90vh;
   width: 100vw;
-  min-height: 560px;
   padding: 0% 0% 0% 0%;
+  @media screen and (max-height: $small) {
+    min-height: $small;
+  }
 }
